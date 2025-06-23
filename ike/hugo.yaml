@@ -114,9 +114,9 @@ params:
   # 评论的设置
   giscus:
     repo: "Ike2333/Ike2333.github.io"
-    repoId: ""
+    repoId: "R_kgDOPAh_TQ"
     category: "Announcements"
-    categoryId: ""
+    categoryId: "DIC_kwDOPAh_Tc4Cr4-U"
     mapping: "pathname"
     strict: "0"
     reactionsEnabled: "1"

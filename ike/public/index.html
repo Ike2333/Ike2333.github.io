@@ -30,7 +30,41 @@
         }
 
     </style>
-</noscript><meta property="og:url" content="http://localhost:1313/">
+</noscript><script type="text/javascript"
+        async
+        src="https://cdn.bootcss.com/mathjax/2.7.3/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+    MathJax.Hub.Config({
+        tex2jax: {
+            inlineMath: [['$','$'], ['\\(','\\)']],
+            displayMath: [['$$','$$'], ['\[\[','\]\]']],
+            processEscapes: true,
+            processEnvironments: true,
+            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+            TeX: { equationNumbers: { autoNumber: "AMS" },
+                extensions: ["AMSmath.js", "AMSsymbols.js"] }
+        }
+    });
+
+    MathJax.Hub.Queue(function() {
+        
+        
+        
+        let all = MathJax.Hub.getAllJax(), i;
+        for(i = 0; i < all.length; i += 1) {
+            all[i].SourceElement().parentNode.className += ' has-jax';
+        }
+    });
+</script>
+
+<style>
+    code.has-jax {
+        font: inherit;
+        font-size: 100%;
+        background: inherit;
+        border: inherit;
+        color: #515151;
+    }
+</style><meta property="og:url" content="http://localhost:1313/">
   <meta property="og:site_name" content="IKE&#39;s Blog">
   <meta property="og:title" content="IKE&#39;s Blog">
   <meta property="og:description" content="Theme PaperMod - https://github.com/adityatelange/hugo-PaperMod">
@@ -189,7 +223,10 @@
   </header>
   <div class="entry-content">
     <p>this is my first post
-</p>
+行内数学公式：$a^2 &#43; b^2 = c^2$。
+块公式，
+$$ a^2 &#43; b^2 = c^2 $$
+$$ \boldsymbol{x}_{i&#43;1}&#43;\boldsymbol{x}_{i&#43;2}=\boldsymbol{x}_{i&#43;3} $$ </p>
   </div>
   <footer class="entry-footer"><span title='2025-06-24 00:13:22 +0800 +08'>2025-06-24</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;IKE</footer>
   <a class="entry-link" aria-label="post link to My First Post" href="http://localhost:1313/posts/my-first-post/"></a>

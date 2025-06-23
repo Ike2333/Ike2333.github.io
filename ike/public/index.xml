@@ -19,7 +19,17 @@
       <link>http://localhost:1313/posts/my-first-post/</link>
       <pubDate>Tue, 24 Jun 2025 00:13:22 +0800</pubDate>
       <guid>http://localhost:1313/posts/my-first-post/</guid>
-      <description>&lt;p&gt;this is my first post&lt;/p&gt;</description>
+      <description>&lt;p&gt;this is my first post&lt;/p&gt;
+&lt;p&gt;行内数学公式：$a^2 + b^2 = c^2$。&lt;/p&gt;
+&lt;p&gt;块公式，&lt;/p&gt;
+&lt;p&gt;$$
+a^2 + b^2 = c^2
+$$&lt;/p&gt;
+&lt;div&gt;
+$$
+\boldsymbol{x}_{i+1}+\boldsymbol{x}_{i+2}=\boldsymbol{x}_{i+3}
+$$
+&lt;/div&gt;</description>
     </item>
     <item>
       <title>About</title>

@@ -1,8 +1,12 @@
 ---
-title: "About"
+title: "About Me"
 layout: "about"
 url: "/about/"
 summary: about
 ---
 
-这里就可以写一些关于的相关信息了。
+A developer with no special skills, currently learning game engines.
+<br><br>
+Good luck, have fun.
+<br><br>
+Nothing more.

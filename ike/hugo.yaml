@@ -66,30 +66,22 @@ params:
     Title: "Hey Guys 👋"
     # 首页的 profile 内容
     Content: >
-      Welcome to my Blog! 这里主要记录了我的视频创作的一些补充说明材料。博客因为是托管在 Github 上面，以及，图床使用的是国外免费的 Postimages，所以，挂上一个梯子可能会让访问更加顺畅。
+      Welcome to my Blog!
       <br>
-      也可以在其他地方访问我的文字材料，如下：
       <br>
       <div>
-      ● [IKE's Notion](https://www.notion.so/luflyan/b5ee8643e563498b96c6b7ab0f27343b)
       </div>
   # 社交帐号的按钮
   socialIcons:
-    - name: github
-      title: Follow my Github
+    - name: Github
+      title: Follow me on Github
       url: "https://github.com/Ike2333"
-    - name: X
-      title: Follow my Twitter
-      url: "https://x.com/"
-    - name: Bilibili
-      title: 关注我的 B 站帐号
-      url: "https://space.bilibili.com/3512242"
-    - name: Youtube
-      title: Follow my Youtube Channel
-      url: "https://youtube.com/"
     - name: Telegram
-      title: Contact Me
-      url: "https://t.me/"
+      title: Contact me
+      url: "https://t.me/IKE_233"
+    - name: Email
+      title: Send me an email
+      url: mailto:idiotpre@outlook.com
 
   # 搜索
   fuseOpts:
@@ -142,5 +134,5 @@ markup:
     anchorLineNos: false # 不要给行号设置锚标
     codeFences: true # 代码围栏
     noClasses: false # TODO: 不知道干啥的，暂时没必要了解，不影响展示
-    lineNos: true # 代码行
+    lineNos: false # 代码行
     lineNumbersInTable: false # 不要设置成 true，否则如果文章开头是代码的话，摘要会由一大堆数字(即代码行号)开头文章

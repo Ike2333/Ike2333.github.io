@@ -1,6 +1,6 @@
 baseURL: "https://Ike2333.github.io/"
 title: IKE's Blog
-copyright: "[©2024 IKE's Blog](https://Ike2333.github.io/)" # 网站的版权声明，通常显示在页脚
+copyright: "[©2024 IKE's Blog](https://Ike2333.github.io/)"
 theme: PaperMod # 主题
 languageCode: en-us # 语言
 
@@ -21,7 +21,6 @@ languages:
     weight: 1 # 权重
     taxonomies: # 分类系统
       category: categories
-      tag: tags
     # https://gohugo.io/content-management/menus/#define-in-site-configuration
     menus:
      main:
@@ -57,8 +56,8 @@ params:
   ShowPageNums: true # 展示页面的页数
   ShowToc: true # 展示文章详情页的目录
   comments: true # 评论
-  images: ["https://i.postimg.cc/7hwBy7VS/calcr.png"] # 缺省的图片，比如，博客的封面
-  DateFormat: "2006-01-02" # 这个时间是作者自己写的，只能这样写
+#  images: ["https://i.postimg.cc/7hwBy7VS/calcr.png"] # 缺省的图片，比如，博客的封面
+  DateFormat: "2006-01-02"
 
   # 首页的文章上方的一些信息
   homeInfoParams:
@@ -66,12 +65,11 @@ params:
     Title: "Hey Guys 👋"
     # 首页的 profile 内容
     Content: >
-      Welcome to my Blog!
+      Welcome to my Blog🥳!
       <br>
       <br>
       <div>
       </div>
-  # 社交帐号的按钮
   socialIcons:
     - name: Github
       title: Follow me on Github
@@ -123,8 +121,8 @@ params:
 outputs:
   home:
     - HTML # 生成的静态页面
-    - RSS # 这个其实无所谓
-    - JSON # necessary for search, 这里的配置修改好之后，一定要重新生成一下
+    - RSS
+    - JSON # necessary for search
 
 markup:
   goldmark:
@@ -132,7 +130,6 @@ markup:
       unsafe: true # 可以 unsafe，有些 html 标签和样式可能需要
   highlight:
     anchorLineNos: false # 不要给行号设置锚标
-    codeFences: true # 代码围栏
-    noClasses: false # TODO: 不知道干啥的，暂时没必要了解，不影响展示
-    lineNos: false # 代码行
-    lineNumbersInTable: false # 不要设置成 true，否则如果文章开头是代码的话，摘要会由一大堆数字(即代码行号)开头文章
+    codeFences: true
+    lineNos: false
+    lineNumbersInTable: false

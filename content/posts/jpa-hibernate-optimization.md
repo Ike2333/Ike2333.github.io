@@ -1,5 +1,5 @@
 +++
-date = '2025-6-28T14:56:25+08:00'
+date = '2025-06-28T14:56:25+08:00'
 categories = ["hibernate", "spring"]
 title = 'JPA Hibernate Query Optimization'
 description = "JPA Hibernate 查询优化"
